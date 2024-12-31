@@ -1,0 +1,35 @@
+{
+	"name": "mendel",
+	"version": "0.0.1",
+	"description": "Servidor para consumir la api de Mendel",
+	"main": "app.mjs",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon app.mjs",
+		"start": "node app.mjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "github.com/devemvt/mendel.git"
+	},
+	"keywords": [
+		"Mendel",
+		"api"
+	],
+	"author": "devemvt",
+	"license": "GPL-3.0-or-later",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"helmet": "^8.0.0",
+		"mysql2": "^3.12.0",
+		"node-cron": "^3.0.3",
+		"timeout": "^0.2.1",
+		"winston": "^3.17.0",
+		"winston-daily-rotate-file": "^5.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.9"
+	}
+}
